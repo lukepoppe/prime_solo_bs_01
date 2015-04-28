@@ -1,7 +1,9 @@
 .btn:hover{
 	background-color: green;
 }
-
+.resultHeight{
+	height: 500px;
+}
 #name {
 
 	color: #B24D44;
