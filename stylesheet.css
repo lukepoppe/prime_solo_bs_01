@@ -4,10 +4,21 @@
 
 #name {
 
-	color: #0000ff;
+	color: #B24D44;
 	font-size: 20px;
-	margin-top: 40px
-}
+
+  }
+.textox:hover  {
+   border: 2px solid #FF00D5;
+  }
+.textox:focus  {
+   border: solid 2px #00D43C;
+   box-shadow: inset 0px 1px 2px 0px #9C9C9C;
+  }
+.textox:active  {
+   border: solid 2px #0043EB;
+  }
+
 
 .row{
 	border-bottom: 3px solid black;
@@ -15,8 +26,7 @@
 }
 
 #searchResults{
-	
-	vertical-align: bottom;
+vertical-align: bottom;
 
 }
 
@@ -30,8 +40,11 @@ h4{
 }
 body{
 	
-background-color: #536399;
+background-color: #32B26C;
 }
 .well, .jumbotron{
-	background-color: #C2C1FF;
+	 
+	background-color: #7AFFB6;
+	border-color: #FF9D93;
+	border-width: 3px;
 }

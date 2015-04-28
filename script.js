@@ -2,7 +2,8 @@ var apikey = '';
 
 
 function searchCallback(results) {
-for (var i = 0; i < 9; i++) {
+$('#searchResults').empty();
+	for (var i = 0; i < 9; i++) {
 		var currentRow;
 		var platformName = "";
 		for (var j = 0; j < results[i].platforms.length; j++) {
@@ -43,8 +44,8 @@ for (var i = 0; i < 9; i++) {
 var userInput = "";
 var apikey = "d40a650b5d8cc7c495d91736f95dee0b8993d809";
 $(document).ready(function() {
-	$('.btn').click(function(){
-		$('searchResults').empty();
+	$('.btn').on('click', function(){
+		$('#searchResults').empty();
 		//userInput = $('search').val();
 		search("batman");
 	});
