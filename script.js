@@ -9,13 +9,13 @@ $('#searchResults').empty();
 			platformName += " - " + results[i].platforms[j].name;
 		}
 		$('#searchResults').append(
-				'<div id="result' + (i+1) + '" class="col-md-4 well resultHeight">' +
-					'<div id="name"><p>Title: ' + results[i].name + '</p></div>' +
+				'<div id="result' + (i+1) + '" class="col-md-4 well resultHeight text-center">' +
+					'<div id="name"><p>Game: ' + results[i].name + '</p></div>' +
 					'<div id="image"><img class="hidden-sm hidden-xs" src="' + results[i].image.thumb_url + '"/></div>' +
 					'<div id="description" class="bill"><h5>Description:</h5> ' + results[i].deck + '</div>' +
 					'<div id="platforms" class="bill"><h5>Supported Platforms:</h5> ' + platformName + '</div>' +
-					'<button class="btn btn-sm btn-success expandBtn">expand</button>' +
-					'<button class="btn btn-sm btn-success removeBtn">remove</button>' + 
+					'<button class="btn btn-sm btn-success expandBtn">More</button>' +
+					'<button class="btn btn-sm btn-danger removeBtn">remove</button>' + 
 				'<div>'
 			).hide().fadeIn('slow');
 		
