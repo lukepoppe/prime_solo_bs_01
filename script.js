@@ -21,7 +21,7 @@ for (var i = 0; i < 9; i++) {
 						
 					'<div>' + 
 				'</div>'
-			);
+			).hide().fadeIn('slow');
 		} else {
 			$('#searchResults').children('#searchRow'+currentRow).append(
 				'<div id="result' + (i+1) + '" class="col-md-4 well">' +
@@ -32,10 +32,13 @@ for (var i = 0; i < 9; i++) {
 					'<button class="btn btn-sm btn-success removeBtn">remove</button>' +
 					
 				'<div>'
-			);
+			).hide().fadeIn('slow');
 		}
 	}
 }
+
+
+	
 
 var userInput = "";
 var apikey = "d40a650b5d8cc7c495d91736f95dee0b8993d809";
@@ -53,7 +56,7 @@ $(document).ready(function() {
 				}
 	});
 	$('#searchResults').on('click', '.removeBtn', function(){
-		$(this).parent().hide();
+		$(this).parent().fadeOut('slow');
 		});
 	});
 
