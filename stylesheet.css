@@ -1,0 +1,37 @@
+.btn:hover{
+	background-color: green;
+}
+
+#name {
+
+	color: #0000ff;
+	font-size: 20px;
+	margin-top: 40px
+}
+
+.row{
+	border-bottom: 3px solid black;
+	
+}
+
+#searchResults{
+	
+	vertical-align: bottom;
+
+}
+
+h4{
+	font-size: 20px;
+	margin-top: 40px
+}
+
+.bill{
+	display: none;
+}
+body{
+	
+background-color: #536399;
+}
+.well, .jumbotron{
+	background-color: #C2C1FF;
+}
